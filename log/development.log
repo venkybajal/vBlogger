@@ -5588,3 +5588,58 @@ Served asset /articles.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-22 19:00:16 +0530
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2014-05-23 20:15:48 +0530
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+ActiveRecord::AdapterNotSpecified (database configuration does not specify adapter):
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_specification.rb:47:in `resolve_hash_connection'
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_specification.rb:41:in `resolve_string_connection'
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_specification.rb:25:in `spec'
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_specification.rb:130:in `establish_connection'
+  activerecord (3.2.14) lib/active_record/railtie.rb:88:in `block (2 levels) in <class:Railtie>'
+  activesupport (3.2.14) lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
+  activesupport (3.2.14) lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+  activesupport (3.2.14) lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
+  activesupport (3.2.14) lib/active_support/lazy_load_hooks.rb:42:in `each'
+  activesupport (3.2.14) lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
+  activerecord (3.2.14) lib/active_record/base.rb:720:in `<top (required)>'
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_pool.rb:483:in `rescue in call'
+  activerecord (3.2.14) lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `_run__306868188__call__611759589__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.14) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.14) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/venkatesh/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/venkatesh/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/venkatesh/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/venkatesh/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/venkatesh/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/venkatesh/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+Connecting to database specified by database.yml
